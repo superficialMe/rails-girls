@@ -21,8 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-*
-
 * If you want to continue making changes and pushing them to GitHub you’ll just need to use the following three commands:
 >git add .
 >git commit -m "type your commit message here"
