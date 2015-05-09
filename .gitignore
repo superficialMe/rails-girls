@@ -15,6 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
-"public/uploads" 
-"tmp" 
-"logs" 
+/public/uploads 
+"tmp"
+"logs"
