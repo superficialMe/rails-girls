@@ -65,6 +65,8 @@ class IdeasController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_idea
       @idea = Idea.find(params[:id])
+      @comments = @idea.comments.all #the one that retrieves from the DB
+      @comment = @idea.comments.build #to ready a blank form for new comment
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
